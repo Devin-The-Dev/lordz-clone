@@ -1,0 +1,11 @@
+/* navbar */
+nav {
+    position: fixed;
+    margin-left: 3vh;
+    margin-top: 1vw;
+}
+
+nav img {
+    height: 70px;
+    width: 95px;
+}
