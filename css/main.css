@@ -1,11 +1,37 @@
 /* navbar */
 nav {
     position: fixed;
+    display: inline-block;
     margin-left: 3vh;
     margin-top: 1vw;
+    height: 95px;
+    width: 100%;
 }
 
 nav img {
     height: 70px;
     width: 95px;
+    float: left;
+}
+
+nav .nav-hovers {
+    /* Use Flexbox to space out*/
+    float: left;
+    color: black;
+}
+
+/* Content is not dropping down */
+nav .hover-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+nav .hover-content a {
+    text-decoration: none;
+    display: block;
+}
+
+nav:hover .hover-content {
+    display: block;
 }
