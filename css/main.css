@@ -2,54 +2,60 @@
 
 /* navbar */
 nav {
-    position: fixed;
-    margin-left: 3vh;
-    margin-top: 1vw;
-    height: auto;
-    width: 100%;
-    z-index: 1;
-    font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-weight: 300;
+  position: fixed;
+  margin-left: 3vh;
+  margin-top: 1vw;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 700;
 }
 
 nav img {
-    height: 70px;
-    width: 95px;
+  height: 70px;
+  width: 95px;
 }
 
 nav .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
   }
 
 nav .dropbtn {
-    /* Use Flexbox to space out*/
-    color: black;
-    margin-left: 3vh;
-    margin-right: 3vh;
+  /* Use Flexbox to space out*/
+  color: #000000;
+  margin-left: 3vh;
+  margin-right: 3vh;
 }
 
 nav .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  z-index: 1;
 }
 
 nav .dropdown-content a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    margin-left: 3vh;
-    margin-right: 3vh;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  text-align: center;
+  margin-left: 3vh;
+  margin-right: 3vh;
 }
 
 nav .dropbtn:hover {
-    /* Smooth out transition */
-    letter-spacing: 8px;
+  /* Smooth out transition */
+  letter-spacing: 8px;
+  
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav .dropdown .dropdown-content a:hover {
+  letter-spacing: 8px;
 }
