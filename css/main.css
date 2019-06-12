@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400');
 
+* {
+  box-sizing: border-box;
+}
+
 /* navbar */
 nav {
   position: fixed;
-  margin-left: 3vh;
+  /* margin-left: 3vh; */
   margin-top: 1vw;
+  /* margin-left: 2vh;
+  margin-right: 4vh; */
   height: auto;
   width: 100%;
   z-index: 1;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav img {
@@ -59,13 +68,16 @@ nav .dropdown:hover .dropdown-content {
 nav .dropdown .dropdown-content a:hover {
   letter-spacing: 8px;
 }
-nav .dropdown #left-dropbtn, nav .dropdown #left-dropdown-content {
-  margin-left: 28vh;
+
+nav .trial {
+  float: right;
+  margin-right: 1vh;
 }
 
 nav .trial a{
   text-decoration: none;
   color: black;
+  font-weight: 400;
   display: inline-block;
   *display: inline; /* Used to get IE 6 & 7 to behave */
   zoom: 1; /* Used to get IE 6 & 7 to behave */
