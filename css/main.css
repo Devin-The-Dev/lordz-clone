@@ -77,7 +77,7 @@ nav .trial {
 nav .trial a{
   text-decoration: none;
   color: black;
-  font-weight: 400;
+  font-weight: 900;
   display: inline-block;
   *display: inline; /* Used to get IE 6 & 7 to behave */
   zoom: 1; /* Used to get IE 6 & 7 to behave */
@@ -87,4 +87,20 @@ nav .trial a{
   -o-transform: rotate(-15deg);  
   transform: rotate(-15deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#promotion {
+  z-index: 1;
+  min-width: 330px;
+  min-height: 330px;
+  background-color: #ffdd03;
+  float: right;
 }
