@@ -2,15 +2,13 @@
 
 * {
   box-sizing: border-box;
+  background-color: #ffe123;
 }
 
 /* navbar */
 nav {
   position: fixed;
-  /* margin-left: 3vh; */
   margin-top: 1vw;
-  /* margin-left: 2vh;
-  margin-right: 4vh; */
   height: auto;
   width: 100%;
   z-index: 1;
@@ -21,16 +19,25 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
 nav img {
+  margin-left: 3vh;
   height: 70px;
   width: 95px;
+  background-color: transparent;
+}
+
+nav span {
+  background-color: transparent;
 }
 
 nav .dropdown {
   position: relative;
   display: inline-block;
+  background-color: transparent;
+  margin-right: 40px;
   }
 
 nav .dropbtn {
@@ -38,6 +45,7 @@ nav .dropbtn {
   color: #000000;
   margin-left: 3vh;
   margin-right: 3vh;
+  background-color: transparent;
 }
 
 nav .dropdown-content {
@@ -53,16 +61,19 @@ nav .dropdown-content a {
   text-align: center;
   margin-left: 3vh;
   margin-right: 3vh;
+  background-color: transparent;
 }
 
 nav .dropbtn:hover {
   /* Smooth out transition */
   letter-spacing: 8px;
+  background-color: transparent;
   
 }
 
 nav .dropdown:hover .dropdown-content {
   display: block;
+  background-color: transparent;
 }
 
 nav .dropdown .dropdown-content a:hover {
@@ -70,8 +81,11 @@ nav .dropdown .dropdown-content a:hover {
 }
 
 nav .trial {
+  text-align: center;
   float: right;
-  margin-right: 1vh;
+  margin-right: 3vh;
+  background-color: transparent;
+  font-size: 15px;
 }
 
 nav .trial a{
@@ -87,20 +101,13 @@ nav .trial a{
   -o-transform: rotate(-15deg);  
   transform: rotate(-15deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  background-color: transparent;
 }
 
 #myVideo {
-  position: fixed;
+  position: relative;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-}
-
-#promotion {
-  z-index: 1;
-  min-width: 330px;
-  min-height: 330px;
-  background-color: #ffdd03;
-  float: right;
 }
